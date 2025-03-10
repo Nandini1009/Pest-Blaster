@@ -74,7 +74,7 @@ this.root.appendChild(titleScreenDiv);
 
 // Create the title image
 const titleImg = document.createElement('img');
-titleImg.src = 'https://mattcannon.games/codepen/bugs/maintitle.png';
+titleImg.src = 'maintitle.png';
 titleImg.alt = 'Fumigation Frenzy';
 titleImg.style.maxWidth = '90vw';
 titleImg.style.height = 'auto';

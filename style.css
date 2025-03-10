@@ -12,11 +12,13 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body { 
-  background: url(http://mattcannon.games/codepen/bugs/bg.jpg); 
+  background: url(bg.png); 
   cursor: none; /* Hide default cursor */
   overflow: hidden;
   font-family: 'Rubik', sans-serif;
   color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Make sure all elements use the 'none' cursor to properly hide it */
@@ -30,7 +32,7 @@ body {
   position: absolute; 
   width: 200px; 
   height: 300px;
-  background: url('https://mattcannon.games/codepen/bugs/wand.png');
+  background: url('wand.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -82,22 +84,22 @@ body {
 .fly { 
   width: 26px; height: 16px; 
   animation: fly 0.1s infinite step-end; 
-  background: url(https://mattcannon.games/codepen/bugs/fly.png);
+  background: url(fly.png);
 }
 .gnat { 
   width: 14px; height: 10px; 
   animation: gnat 0.1s infinite step-end; 
-  background: url(https://mattcannon.games/codepen/bugs/gnat.png);
+  background: url(gnat.png);
 }
 .wasp { 
   width: 48px; height: 32px; 
   animation: wasp 0.1s infinite step-end; 
-  background: url(https://mattcannon.games/codepen/bugs/wasp.png);
+  background: url(wasp.png);
 }
 .bigfly { 
   width: 32px; height: 30px; 
   animation: bigfly 0.1s infinite step-end; 
-  background: url(https://mattcannon.games/codepen/bugs/bigfly.png);
+  background: url(bigfly.png);
 }
 
 @keyframes fly { 0% { background-position: 0 0; } 50% { background-position: -26px 0; } }
